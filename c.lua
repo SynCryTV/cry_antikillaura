@@ -23,7 +23,7 @@ function trackKill()
     local currentTime = GetGameTimer()
 
     for i = #killLog, 1, -1 do
-        if (currentTime - killLog[i]) > 300 then
+        if (currentTime - killLog[i]) > 500 then
             table.remove(killLog, i)
         end
     end
