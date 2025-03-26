@@ -19,3 +19,9 @@ This script monitors player activity on the server and detects "kill exploits," 
 
 ## Example Log Entry
 When a player is kicked, the following log entry will appear in the console:
+
+^1[AntiCheat]^0 Player <PlayerName> (ID: <PlayerID>) was kicked due to Kill Exploit: More than 3 kills in 0.5 seconds.
+
+## Customization
+- The reason for kicking can be easily modified by changing the value of the `reason` variable in the script.
+- The time limit for kills (0.5 seconds) can also be adjusted if you want to change the detection logic.
